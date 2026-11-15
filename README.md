@@ -1,4 +1,4 @@
-# A Novel Hybrid Sentiment-Guided RoBERTa-Two State GRU for Efficient Sentiment Analysis with OpenVINO Optimization
+# SG-CSF–SG-TSGRU: A Novel Hybrid Sentiment-Guided RoBERTa-Two State GRU for Efficient Sentiment Analysis with OpenVINO Optimization
 # Abstract 
 This repository implements a sentiment classification framework integrating Sentiment-Guided Contextual–Semantic Fusion (SG-CSF) and Sentiment-Guided Two-State GRU (SG-TSGRU). The model combines RoBERTa contextual representations, Word2Vec semantic embeddings, and VADER sentiment features through adaptive feature fusion and sentiment-guided recurrent processing. A Sentiment-Preserving Semantic Augmentation (SP-SA) strategy increases training-data diversity while constraining semantic and sentiment changes. The framework supports evaluation on IMDb and Sentiment140, with optional ONNX and OpenVINO deployment for investigating the trade-off between classification performance and inference efficiency.
 # Introduction
